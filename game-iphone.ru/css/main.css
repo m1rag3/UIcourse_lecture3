@@ -1,0 +1,587 @@
+@import "reset.css";
+@import "js-image-slider.css";
+@import "generic.css";
+body{
+    background-color: #1b1b1d;
+}
+.wrapper{
+    background: url("../images/background.jpg") center top no-repeat;
+}
+.content_center{
+    width: 960px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+/*log on*/
+.sign_in{
+    height: 55px;
+}
+
+
+.auth{
+    float: right;
+    margin: 20px 0 0 0;
+}
+.auth input[type="text"],
+.auth input[type="password"]{
+    margin-right: 10px;
+    height: 23px;
+    padding: 0 8px;
+    border: none;
+}
+.auth .login_btn{
+    height: 23px;
+    line-height: 1px;
+}
+.login_btn{
+    cursor: pointer;
+}
+/*end log on*/
+/* Header */
+.header{
+    font-family: Calibri, serif;
+    font-size: 14px;
+    background-color: #1e1e1f;
+    height: 45px;
+    text-transform: uppercase;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.menu{
+    padding: 17px 0 17px 0;
+    text-align: left;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 17px 0 24px;
+}
+.menu li a{
+    color: #ffffff;
+}
+.menu li a:hover{
+    color: #93d100;
+}
+.icon{
+    float: right;
+    padding-left: 210px;
+}
+.logo{
+    font-family: Calibri, serif;
+    font-size: 24px;
+    background-color: #2f2f31;
+    height: 108px;
+}
+.logo_img{
+    float: right;
+    margin: 17px 10px 17px 0;
+}
+.title{
+    color: #fff;
+    font-size: 30pt;
+    text-transform: uppercase;
+    padding: 30px 0 0 26px;
+    font: bold;
+    display: inline-block;
+}
+.logo_text{
+    color: #92cf02;
+}
+/*end header*/
+/* Navigation */
+.nav{
+    font-family: Calibri, serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    background-color: #86bd03;
+    text-align: left;
+    height: 55px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    border-top: 1px solid #b3ff00;
+}
+.nav_panel{
+    padding: 19px 0 0 23px;
+}
+.nav_panel li a{
+    color: #ffffff;
+    padding: 20px 10px;
+}
+.nav li{
+    display: inline;
+    padding-right: 25px;
+}
+.search{
+    float: right;
+    margin: 0 20px 0 0;
+    background: url("../images/search.jpg") no-repeat 100% 100%;
+    background-color: #ffffff;
+}
+/*end navigation*/
+/* Slider */
+.jsslider{
+    background-color: #363638;
+    border-radius: 10px;
+    height: 273px;
+    margin-bottom: 21px;
+}
+.slider_info{
+    background: url("../images/slider_box_bg.jpg") left top no-repeat;
+    float: left;
+    height: 262px;
+    width: 275px;
+    padding: 12px 20px;
+    border-top-right-radius: 10px;
+}
+.slider_info h2{
+    font-family: Calibri,serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.slider_info h3{
+    font-size: 18px;
+    font-family: Calibri,serif;
+    color: rgb( 157, 223, 0 );
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.slider_info p{
+    font-family: Calibri,serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #afafaf;
+    margin-bottom: 16px;
+}
+/*end slider*/
+/*news div's*/
+.content_left{
+    width: 660px;
+    margin-right: 20px;
+    float: left;
+}
+.info li{
+    display: inline;
+    float: left;
+    margin-right: 40px;
+    font-size: 14px;
+    font-family: Calibri, serif;
+    color: rgb( 157, 223, 0 );
+    font-weight: bold;
+    line-height: 17pt;
+    text-align: left;
+}
+.news_border{
+    border: none;
+    color: #464646;
+    background-color: #464646;
+    height: 2px;
+}
+.info_img{
+    border: solid 2px #c1c1c1;
+    border-radius: 25px;
+}
+.app_category{
+    font-size: 12px;
+    font-family: Calibri,serif;
+    color: rgb(175, 175, 175);
+    line-height: 17pt;
+    text-align: left;
+}
+.read_next{
+    font-size: 16px;
+    font-family: Calibri, serif;
+    color: rgb( 157, 223, 0 );
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 24pt;
+    text-align: left;
+}
+/*3 div's about game*/
+.game_logotype{
+    float: left;
+    padding-right: 20px;
+}
+
+.about_game h3{
+    font-size: 18px;
+    font-family: Calibri,serif;
+    color: rgb( 157, 223, 0 );
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about_game h2{
+    font-family: Calibri,serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.about_game p{
+    font-family: Calibri,serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #afafaf;
+    margin-bottom: 16px;
+}
+.rate{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 154, 154, 154 );
+    line-height: 1.333;
+    text-align: left;
+
+}
+.a_annotation{
+    float: right;
+    margin-top: 20px;
+    margin-right: 220px;
+}
+.annotation{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 154, 154, 154 );
+    line-height: 1.333;
+    text-align: left;
+    margin-top: 10px;
+}
+.com_number{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 157, 223, 0 );
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: left;
+}
+.detailed{
+    border-radius: 4px;
+    background-color: #414141;
+    width: 118px;
+    height: 28px;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Calibri, serif;
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    line-height: 1.846;
+    cursor: pointer;
+}
+
+.date{
+    float: right;
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 119, 118, 118 );
+    line-height: 1.333;
+    text-align: left;
+    font-weight: bolder;
+}
+.section{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 154, 154, 154 );
+    line-height: 1.333;
+    text-align: left;
+    font-weight: bold;
+}
+.section_s{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb(96, 132, 24);
+    line-height: 1.333;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*end 3 div's about game*/
+/*bottom navigation*/
+.pages{
+    text-align: center;
+}
+.bot_nav li{
+    display: inline;
+    padding-right: 7px;
+}
+.bot_nav li a{
+    font-size: 14px;
+    font-family: Calibri, serif;
+    color: rgb( 157, 223, 0 );
+    text-decoration: underline;
+    line-height: 1.143;
+}
+/*end bottom navigation*/
+/*end news div's*/
+.content_right{
+    width: 280px;
+    float: left;
+}
+.btn_green{
+    font-family: Calibri,serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 11px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: #5e6a58;
+    background-image: -webkit-linear-gradient(top, #92cf02, #78a804);
+    background-image: -moz-linear-gradient(top, #92cf02, #78a804);
+    background-image: -o-linear-gradient(top, #92cf02, #78a804);
+    background-image: -ms-linear-gradient(top, #92cf02, #78a804);
+    background-image: linear-gradient(to bottom, #92cf02, #78a804);
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+/* Wight box */
+.wight-box{
+    margin-bottom: 26px;
+}
+.wight-box .wight-title{
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 20px;
+    line-height: 48px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: url("../images/wight-title-bg.jpg") left top repeat-x;
+    height: 51px;
+}
+.wight-box .wight-content{
+    padding: 20px;
+    background-color: #252526;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*end Wight box*/
+/*right div's*/
+.popular li a{
+    color: #9ddf00;
+    border-bottom: dotted 1px;
+    font-size: 14px;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: left;
+}
+.pride li {
+    display: block;
+    font-size: 14px;
+    font-family: Calibri, serif;
+    color: rgb( 175, 175, 175 );
+    line-height: 1.143;
+}
+.pride li a{
+    font-size: 14px;
+    font-family: Calibri, serif;
+    color: rgb( 157, 223, 0 );
+    text-decoration: underline;
+    line-height: 1.143;
+}
+.pride1{
+    float: left;
+    padding-right: 10px;
+}
+.blurb h3{
+    font-size: 18px;
+    font: bold Calibri, serif;
+    color: #ffffff;
+    line-height: 24px;
+    padding-bottom: 17px;
+}
+.yandex{
+    color: #e83126;
+}
+.blurb .less{
+    font-size: 12px;
+    font-family: Tahoma, serif;
+    color: rgb( 157, 223, 0 );
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 2;
+    text-align: left;
+}
+.blurb p{
+    font-size: 12px;
+    font-family: Tahoma, serif;
+    color: #ffffff;
+}
+.target_5{
+    font-size: 11px;
+    font-family: Tahoma, serif;
+    color: rgb( 157, 223, 0 );
+    text-decoration: underline;
+    line-height: 2.182;
+    text-align: left;
+}
+/*end right div's*/
+/* Footer */
+.footer{
+    border-top: 1px solid #313131;
+    font-family: Calibri, serif;
+    font-size: 14px;
+    position: relative;
+    background-color: #1b1b1d;
+    height: 45px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer_menu{
+    padding: 17px 0 17px 0;
+    text-align: left;
+}
+.footer p{
+    text-align: right;
+    font-size: 30px;
+    font-family: Calibri, serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.8;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: -35px;
+}
+.footer li{
+    display: inline-block;
+    padding: 0 17px 0 24px;
+}
+.footer li a{
+    color: #ffffff;
+}
+.footer li a:hover{
+    color: #93d100;
+}
+.footer_t{
+    color: #92cf02;
+}
+.reserved{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 154, 154, 154 );
+    line-height: 1.333;
+    text-align: right;
+    text-transform: lowercase;
+}
+/*end footer*/
+
+
+
+
+/*3 div's about game*/
+.game_logotype{
+    float: left;
+    padding-right: 20px;
+}
+
+.about_game h3{
+    font-size: 18px;
+    font-family: Calibri,serif;
+    color: rgb( 157, 223, 0 );
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about_game h2{
+    font-family: Calibri,serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.about_game p{
+    font-family: Calibri,serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #afafaf;
+    margin-bottom: 16px;
+}
+.rate{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 154, 154, 154 );
+    line-height: 1.333;
+    text-align: left;
+
+}
+.a_annotation{
+    float: right;
+    margin-top: 20px;
+    margin-right: 220px;
+}
+.annotation{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 154, 154, 154 );
+    line-height: 1.333;
+    text-align: left;
+    margin-top: 10px;
+}
+.com_number{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 157, 223, 0 );
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.detailed{
+    border-radius: 4px;
+    background-color: #414141;
+    width: 118px;
+    height: 28px;
+    z-index: 86;
+    border: none;
+    margin-top: 10px;
+}
+
+.date{
+    float: right;
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 119, 118, 118 );
+    line-height: 1.333;
+    text-align: left;
+    font-weight: bolder;
+}
+.section{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb( 154, 154, 154 );
+    line-height: 1.333;
+    text-align: left;
+    font-weight: bold;
+}
+.section_s{
+    font-size: 12px;
+    font-family: Calibri, serif;
+    color: rgb(96, 132, 24);
+    line-height: 1.333;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
